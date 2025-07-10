@@ -194,5 +194,26 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         }
+        ,
+        {
+            id: 'Final',
+            alignment: 'fully',
+            hidden: false,
+            title: 'Consulta todos los datos',
+            description: 'Aunque esta narrativa se ha centrado en los territorios que están experimentando unas subidas de precio sustantivas con respecto a los que había antes de la crisis, en otras provincias los precios son similares a los de hace 18 años o incluso siguen siendo más bajos, como ocurre en muchas zonas de la España vaciada.<br><br> Puedes consultar todos los datos para el conjunto de provincias. comunidades autónomas y ciudades autónomas en este gráfico interactivo (los datos de Ceuta y Melilla solo están disponibles desde 2004).' +
+            `<iframe src='https://flo.uri.sh/visualisation/24176942/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>`,
+            location: {
+                center: [-3.73572, 40.41418],
+                 zoom: 4.91,
+                 pitch: 0,
+                 bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        }
     ]
 };
+
